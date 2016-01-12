@@ -13,3 +13,8 @@ sourceSets {
         }
     }
 }
+
+dependencies{
+    compile 'org.codehaus.groovy:groovy-all:2.4.4'
+    testCompile 'org.codehaus.groovy:groovy-all:2.4.4'
+}
