@@ -1,4 +1,15 @@
 plugins{
     id 'groovy'
+    id 'net.researchgate.release' version '2.3.4'
 }
 
+sourceSets {
+    integration {
+        groovy {
+            srcDir 'src/integration/groovy'
+        }
+        resources {
+            srcDir 'src/integration/resources'
+        }
+    }
+}
